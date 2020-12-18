@@ -1,0 +1,182 @@
+/*
+.darkblue{
+    background: linear-gradient(45deg, darken($darkblue, 10%), darken($blue, 10%));
+}
+.darkred{
+    background: linear-gradient(45deg, darken($darkred, 15%), lighten($darkred,0%));
+}
+.blue{
+    background: linear-gradient(45deg, darken($darkblue, 0%), $blue);
+}
+.red{
+    background: linear-gradient(45deg, darken($darkred, 7%), lighten($red, 5%));
+}
+.orange{
+    background: linear-gradient(45deg, lighten($darkred, 10%), darken($orange, 5%));
+}
+.yellow{
+    background: linear-gradient(45deg, lighten($orange, 10%), $yellow);
+}
+.purple{
+    background: linear-gradient(45deg, darken($purple, 25%), darken($purple, 5%));
+}
+.green{
+    background: linear-gradient(45deg, darken($green, 10%), $green);
+}
+.phantom{
+    background: linear-gradient(45deg, darken($blue, 30%), darken($purple, 40%));
+}
+.opal{
+    background: linear-gradient(45deg, darken($green, 5%), $opal);
+}
+.blue{
+    background: linear-gradient(45deg, darken($blue, 10%), $blue);
+}
+.pink{
+    background: linear-gradient(45deg, darken($pink, 10%), $pink);
+}
+.magenta{
+    background: linear-gradient(45deg, darken($magenta, 10%), $magenta);
+}
+.black-purple{
+    background: linear-gradient(45deg, darken($purple, 55%), darken($purple, 45%));
+}
+.black-green{
+    background: linear-gradient(45deg, darken($opal, 48%), darken($opal, 43%));
+}
+.black-blue{
+    background: linear-gradient(45deg, darken($darkblue, 30%), darken($darkblue, 25%));
+}
+.black-pink{
+    background: linear-gradient(45deg,  darken($pink, 47%), darken($pink, 40%));
+}
+.black-red{
+    background: linear-gradient(45deg, darken($red, 47%), darken($red, 40%));
+}
+
+
+
+.inactive{
+    filter: grayscale(60%) contrast(130%);
+}
+
+
+.light{
+
+    */
+.black {
+  background: black;
+}
+
+.darkblue {
+  background: linear-gradient(45deg, #005ce0, #4d9eff);
+}
+
+.darkred {
+  background: linear-gradient(45deg, #e61b00, #ff624d);
+}
+
+.blue {
+  background: linear-gradient(45deg, #005ce0, #0074ff);
+}
+
+.red {
+  background: linear-gradient(45deg, #f01c00, #ff6666);
+}
+
+.orange {
+  background: linear-gradient(45deg, #ff351a, #ff8c4d);
+}
+
+.yellow {
+  background: linear-gradient(45deg, #ff7c33, #ffbb33);
+}
+
+.purple {
+  background: linear-gradient(45deg, #b529ff, #cf76ff);
+}
+
+.green {
+  background: linear-gradient(45deg, #107c00, #16af00);
+}
+
+.phantom {
+  background: linear-gradient(45deg, #002e66, #3c005c);
+}
+
+.opal {
+  background: linear-gradient(45deg, #19c900, #70e08a);
+}
+
+.blue {
+  background: linear-gradient(45deg, #005dcc, #0074ff);
+}
+
+.pink {
+  background: linear-gradient(45deg, #cc00cc, #ff00ff);
+}
+
+.magenta {
+  background: linear-gradient(45deg, #ff1dcf, #ff5adc);
+}
+
+.black-purple {
+  background: linear-gradient(45deg, #f8ebff, #e1a9ff);
+}
+
+.black-purple h1 {
+  color: black;
+}
+
+.black-purple p {
+  color: black;
+}
+
+.black-purple .expo h1 {
+  color: black;
+}
+
+.black-purple .expo p {
+  color: black;
+}
+
+.black-green {
+  background: linear-gradient(45deg, #031600, #135823);
+}
+
+.black-green img {
+  -webkit-filter: contrast(150%);
+          filter: contrast(150%);
+}
+
+.black-blue {
+  background: linear-gradient(45deg, #004699, #3390ff);
+}
+
+.black-blue img {
+  -webkit-filter: brightness(120%);
+          filter: brightness(120%);
+}
+
+.black-pink {
+  background: linear-gradient(45deg, black, #660066);
+}
+
+.black-pink img {
+  -webkit-filter: brightness(200%);
+          filter: brightness(200%);
+}
+
+.black-red {
+  background: linear-gradient(45deg, #660000, #cc0000);
+}
+
+/*
+    .inactive{
+        filter: grayscale(60%) brightness(120%);
+    }
+    */
+#dark {
+  background: rgba(0, 0, 0, 0);
+}
+/*# sourceMappingURL=colors.css.map */

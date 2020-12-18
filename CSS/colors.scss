@@ -1,0 +1,151 @@
+@import 'variables';
+
+/*
+.darkblue{
+    background: linear-gradient(45deg, darken($darkblue, 10%), darken($blue, 10%));
+}
+.darkred{
+    background: linear-gradient(45deg, darken($darkred, 15%), lighten($darkred,0%));
+}
+.blue{
+    background: linear-gradient(45deg, darken($darkblue, 0%), $blue);
+}
+.red{
+    background: linear-gradient(45deg, darken($darkred, 7%), lighten($red, 5%));
+}
+.orange{
+    background: linear-gradient(45deg, lighten($darkred, 10%), darken($orange, 5%));
+}
+.yellow{
+    background: linear-gradient(45deg, lighten($orange, 10%), $yellow);
+}
+.purple{
+    background: linear-gradient(45deg, darken($purple, 25%), darken($purple, 5%));
+}
+.green{
+    background: linear-gradient(45deg, darken($green, 10%), $green);
+}
+.phantom{
+    background: linear-gradient(45deg, darken($blue, 30%), darken($purple, 40%));
+}
+.opal{
+    background: linear-gradient(45deg, darken($green, 5%), $opal);
+}
+.blue{
+    background: linear-gradient(45deg, darken($blue, 10%), $blue);
+}
+.pink{
+    background: linear-gradient(45deg, darken($pink, 10%), $pink);
+}
+.magenta{
+    background: linear-gradient(45deg, darken($magenta, 10%), $magenta);
+}
+.black-purple{
+    background: linear-gradient(45deg, darken($purple, 55%), darken($purple, 45%));
+}
+.black-green{
+    background: linear-gradient(45deg, darken($opal, 48%), darken($opal, 43%));
+}
+.black-blue{
+    background: linear-gradient(45deg, darken($darkblue, 30%), darken($darkblue, 25%));
+}
+.black-pink{
+    background: linear-gradient(45deg,  darken($pink, 47%), darken($pink, 40%));
+}
+.black-red{
+    background: linear-gradient(45deg, darken($red, 47%), darken($red, 40%));
+}
+
+
+
+.inactive{
+    filter: grayscale(60%) contrast(130%);
+}
+
+
+.light{
+
+    */
+
+    .black{
+        background: black;
+    }
+
+    .darkblue{
+        background: linear-gradient(45deg, lighten($darkblue, 10%), lighten($blue, 15%));
+    }
+    .darkred{
+        background: linear-gradient(45deg, lighten($darkred, 5%), lighten($darkred, 25%));
+    }
+    .blue{
+        background: linear-gradient(45deg, lighten($darkblue, 10%), $blue);
+    }
+    .red{
+        background: linear-gradient(45deg, lighten($darkred, 7%), lighten($red, 20%));
+    }
+    .orange{
+        background: linear-gradient(45deg, lighten($darkred, 15%), lighten($orange, 15%));
+    }
+    .yellow{
+        background: linear-gradient(45deg, lighten($orange, 10%), lighten($yellow, 10%));
+    }
+    .purple{
+        background: linear-gradient(45deg, lighten($purple, 0%), lighten($purple, 15%));
+    }
+    .green{
+        background: linear-gradient(45deg, darken($green, 10%), $green);
+    }
+    .phantom{
+        background: linear-gradient(45deg, darken($blue, 30%), darken($purple, 40%));
+    }
+    .opal{
+        background: linear-gradient(45deg, lighten($green, 5%), lighten($opal, 15%));
+    }
+    .blue{
+        background: linear-gradient(45deg, darken($blue, 10%), $blue);
+    }
+    .pink{
+        background: linear-gradient(45deg, darken($pink, 10%), $pink);
+    }
+    .magenta{
+        background: linear-gradient(45deg, lighten($magenta, 8%), lighten($magenta, 20%));
+    }
+
+    .black-purple{
+        background: linear-gradient(45deg, lighten($purple, 38%), lighten($purple, 25%));
+
+        h1{ color: black } p{ color: black } .expo{ h1{ color: black } p{ color: black } }
+    }
+    .black-green{
+        background: linear-gradient(45deg, darken($green, 30%), darken($opal, 30%));
+        img{
+            filter: contrast(150%);
+        }
+    }
+    .black-blue{
+        background: linear-gradient(45deg, darken($blue, 20%), lighten($blue, 10%));
+        img{
+            filter: brightness(120%);
+        }
+    }
+    .black-pink{
+        background: linear-gradient(45deg, darken($pink, 50%), darken($pink, 30%));
+        img{
+            filter: brightness(200%);
+        }
+    }
+    .black-red{
+        background: linear-gradient(45deg, darken($red, 30%), darken($red, 10%));
+    }
+
+    /*
+    .inactive{
+        filter: grayscale(60%) brightness(120%);
+    }
+    */
+
+    #dark{
+        background: rgba(black, 0);
+    }
+
+// }
